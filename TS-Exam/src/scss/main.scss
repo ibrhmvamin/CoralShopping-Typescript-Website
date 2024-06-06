@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(237, 237, 237);
+
+  &__elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__logo {
+    width: 160px;
+    height: 30px;
+  }
+}
+
+.account-shopping {
+  display: flex;
+  gap: 20px;
+}
+
+.account {
+  display: flex;
+  gap: 10px;
+}
+
+.shopping {
+  display: flex;
+  gap: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  padding: 0 190px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: arial;
+}
+
+main {
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.top-main {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  padding: 0 100px;
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+
+  &__dark-button {
+    background-color: rgb(255, 255, 96);
+    border-radius: 3%;
+    display: flex;
+    font-size: 20px;
+    border: 0;
+    padding: 12px 20px;
+  }
+
+  &__left-side {
+    width: 550px;
+  }
+
+  &__p {
+    font-size: 29px;
+    font-weight: 200;
+    margin-bottom: 70px;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: arial;
+  margin-bottom: 70px;
+  margin-top: 90px;
+}
+
+.brands-container {
+  margin-bottom: 60px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.brands img {
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.explore {
+  background-color: white;
+
+  &__clothings {
+    display: flex;
+  }
+
+  &__clothings-small {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__p {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    transform: rotate(-90deg);
+    left: -100px;
+    top: 169%;
+  }
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 100px;
+  background-color: white;
+  margin-bottom: 50px;
+  &__header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: 550;
+    margin-bottom: 40px;
+  }
+
+  &__links-filter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  &__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__filter {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+  }
+
+  &__button {
+    background-color: black;
+    color: white;
+    padding: 5px auto;
+  }
+
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    margin-bottom: 30px;
+
+    &__image {
+      width: 250px;
+      height: 250px;
+    }
+
+    &__fullname {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      width: 250px;
+      text-transform: capitalize;
+    }
+
+    &__type-price {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__type {
+      color: rgba(0, 0, 0, 0.5);
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    &__price {
+      font-family: Open Sans;
+      font-size: 16px;
+      font-weight: 600;
+      color: black;
+    }
+  }
+}
+
+.zara {
+  position: relative;
+  width: 100%;
+  margin-bottom: 60px;
+  &__model {
+    width: 100%;
+    height: 776px;
+  }
+
+  &__logo {
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 550px;
+    height: 270px;
+  }
+
+  &__bg {
+    position: absolute;
+    right: 25%;
+    top: 38%;
+  }
+
+  &__container {
+    position: absolute;
+    right: 7%;
+    top: 53%;
+  }
+
+  &__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  &__button {
+    padding: 13px 30px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}
+
+.discounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(30, 40, 50, 0.05);
+  margin-bottom: 50px;
+  &__header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  &__images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+  }
+  &__image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  &__button {
+    border: none;
+    border-bottom: 3px solid rgb(30, 40, 50);
+    color: rgb(30, 40, 50);
+    padding: 8px;
+    font-weight: 400;
+    background-color: transparent;
+  }
+
+  &__email {
+    width: 500px;
+    padding: 8px;
+    border: none;
+    border-bottom: 3px solid rgb(30, 40, 50);
+    background-color: transparent;
+    margin-bottom: 80px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  padding: 0 100px;
+
+  &__logos {
+    display: flex;
+    gap: 36px;
+  }
+
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__description {
+    display: flex;
+    text-transform: capitalize;
+    width: 340px;
+    flex-direction: column;
+    * {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.footer__description img {
+  width: 160px;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  padding: 12px 0px;
+  & {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &__p {
+    color: white;
+  }
+
+  &__button {
+    background-color: black;
+    color: white;
+    border: 0;
+  }
+}
+
+span {
+  margin-left: 6px;
+  margin-top: 0;
+  font-size: 16px;
+}

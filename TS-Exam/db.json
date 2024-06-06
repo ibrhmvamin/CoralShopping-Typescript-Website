@@ -1,0 +1,94 @@
+{
+  "all-products": [
+    {
+      "imgPath": "./src/assets/products/product1.jpg",
+      "name": "Nike Running Shoes",
+      "price": "$85.00",
+      "type": "Shoes"
+    },
+    {
+      "imgPath": "./src/assets/products/product2.jpg",
+      "name": "Leather Jacket",
+      "price": "$120.00",
+      "type": "Jacket"
+    },
+    {
+      "imgPath": "./src/assets/products/product3.jpg",
+      "name": "Casual Hoodie",
+      "price": "$45.99",
+      "type": "Hoodie"
+    },
+    {
+      "imgPath": "./src/assets/products/product4.jpg",
+      "name": "Graphic T-Shirt",
+      "price": "$25.00",
+      "type": "T-Shirt"
+    },
+    {
+      "imgPath": "./src/assets/products/product5.jpg",
+      "name": "Summer Dress",
+      "price": "$75.00",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./src/assets/products/product6.jpg",
+      "name": "Omega Wrist Watch",
+      "price": "$450.00",
+      "type": "Watch"
+    },
+    {
+      "imgPath": "./src/assets/products/product7.jpg",
+      "name": "Blue Denim Jacket",
+      "price": "$99.99",
+      "type": "Jacket"
+    },
+    {
+      "imgPath": "./src/assets/products/product8.jpg",
+      "name": "Slim Fit Jeans",
+      "price": "$59.99",
+      "type": "Pants"
+    },
+    {
+      "imgPath": "./src/assets/products/product9.jpg",
+      "name": "White Sneakers",
+      "price": "$75.00",
+      "type": "Shoes"
+    },
+    {
+      "imgPath": "./src/assets/products/product10.jpg",
+      "name": "Black Dress",
+      "price": "$89.99",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./src/assets/products/product11.jpg",
+      "name": "Classic T-Shirt",
+      "price": "$20.00",
+      "type": "T-Shirt"
+    },
+    {
+      "imgPath": "./src/assets/products/product12.jpg",
+      "name": "Silver Watch",
+      "price": "$120.00",
+      "type": "Watch"
+    },
+    {
+      "imgPath": "./src/assets/products/product13.jpg",
+      "name": "Gray Hoodie",
+      "price": "$35.00",
+      "type": "Hoodie"
+    },
+    {
+      "imgPath": "./src/assets/products/product14.jpg",
+      "name": "Red Dress",
+      "price": "$105.00",
+      "type": "Dress"
+    },
+    {
+      "imgPath": "./src/assets/products/product15.jpg",
+      "name": "Blue T-Shirt",
+      "price": "$22.00",
+      "type": "T-Shirt"
+    }
+  ]
+}
